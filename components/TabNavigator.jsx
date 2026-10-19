@@ -1,5 +1,5 @@
-import page1 from './screens/page1';
-import page2 from './screens/page2';
+import Page1 from '../screens/Page1';
+import Page2 from '../screens/Page2';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
@@ -7,31 +7,31 @@ const Stack = createNativeStackNavigator();
 export default function TabNavigator (){
   return (
     <Stack.Navigator
-      initialRouteName="page1"
+      initialRouteName="Page1"
       screenOptions={{
         headerShown: false,
       }}>
 
       <Stack.Screen
         initialParams={{
-          screen: 'page1',
+          screen: 'Page1',
         }}
         options={{
           unmountOnBlur: true,
         }}
-        name="page1"
-        component={page1}
+        name="Page1"
+        component={Page1}
       />
 
       <Stack.Screen
         initialParams={{
-          screen: 'page2',
+          screen: 'B',
         }}
         options={{
           unmountOnBlur: true,
         }}
-        name="page2"
-        component={page2}
+        name="Page2"
+        component={Page2}
       />
     </Stack.Navigator>
   )

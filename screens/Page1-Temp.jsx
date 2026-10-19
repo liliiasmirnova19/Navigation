@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-export default function page1(){
+export default function Page1(){
     const navigation = useNavigation();
   
     return (
       <View style={styles.container}>
-        <Text>page 1</Text>
-        <Button title="To page 2" onPress={() => navigation.navigate('page2')} />
+        <Text>Page 1</Text>
+        <Button title="To page 2" onPress={() => navigation.navigate('Page2')} />
       </View>
     )
 }
