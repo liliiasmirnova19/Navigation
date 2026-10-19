@@ -1,5 +1,5 @@
-import Page1 from '../screens/Page1';
-import Page2 from '../screens/Page2';
+import Page1 from '../screens/Page1-Temp';
+import Page2 from '../screens/Page2-Temp';
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();

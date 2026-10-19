@@ -7,7 +7,7 @@ export default function Page2(){
     return (
       <View style={styles.container}>
         <Text>page 2</Text>
-        <Button title="To page 1" onPress={() => navigation.navigate('page1')} />
+        <Button title="To page 1" onPress={() => navigation.navigate('Page1')} />
       </View>
     )
 }

@@ -3,10 +3,6 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import TabNavigator from './components/TabNavigator';
 import RootNavigator from './screens/Root';
-
-import Page1 from './screens/page1';
-import Page2 from './screens/page2';
-
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 const Tab = createBottomTabNavigator();
