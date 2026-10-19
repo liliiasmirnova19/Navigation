@@ -15,8 +15,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator initialRouteName="Tabs" screenOptions={{ headerShown: false }}>
-        <Tab.Screen name ="Page1" component={Page1} />
-        <Tab.Screen name ="Page2" component={Page2} />
+        {/* <Tab.Screen name ="Page1" component={Page1} />
+        <Tab.Screen name ="Page2" component={Page2} /> */}
         <Tab.Screen name="Tabs" component={TabNavigator} />
         <Tab.Screen name="Root" component={RootNavigator} />
       </Tab.Navigator>
